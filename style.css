@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 550;
+    background-color: var(--main-color);
+    height: 100vh;
+}
+:root {
+    --main-color:rgb(232, 86, 8);
+    --second-color:rgb(242, 244, 141);
+    --winner-color:rgb(249, 242, 41);
+}
+.title {
+    background-color: var(--main-color);
+    padding: 20px;
+    margin: 0 0 20px;
+    text-align: center;
+    color: beige;
+    height: 80px;
+
+}
+
+
+
+span {
+    color: var(--second-color);
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.first-group ,
+.second-group ,
+.third-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squares {
+    height: 190px;
+    width: 190px;
+    margin: 4px;
+    border:solid 2px rgb(62, 201, 62);
+    background-color: var(--second-color);
+
+}
+.squares:hover {
+    cursor: pointer;
+}
+
+
